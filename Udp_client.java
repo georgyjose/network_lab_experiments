@@ -20,5 +20,4 @@ class Udp_client{
 			System.out.println("FROM SERVER:" + modifiedSentence);
 			}
 		}
-		// clientSocket.close();
 	}
