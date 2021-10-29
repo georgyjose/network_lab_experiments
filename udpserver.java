@@ -19,7 +19,7 @@ public class udpserver{
 				msg2=" is a palindrome\n";
 			else
 				msg2=" is not a palindrome\n";
-			System.out.print(msg2);
+			System.out.println(msg2);
 			InetAddress ip = InetAddress.getByName("127.0.0.1");
 			DatagramSocket ds2 = new DatagramSocket();
 			DatagramPacket dp2 = new DatagramPacket(msg2.getBytes(),msg2.length(),ip,4000);
