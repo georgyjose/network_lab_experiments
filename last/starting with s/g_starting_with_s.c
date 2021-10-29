@@ -27,7 +27,6 @@ void main(){
 		if(buf[i]=='\n'){
 			if(buf[0]=='s' || buf[0]=='S'){
 				printf("%s\n",buf );
-				// n++;
 				}
 			i=0;
 			continue;
