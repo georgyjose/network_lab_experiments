@@ -9,5 +9,4 @@ void main(){
 	int sz = read(fd, c, 100);
 	sz = read(fd, c, 100);
 	printf("%s\n",c);
-	// printf("fd = %d\n",fd);
 }
