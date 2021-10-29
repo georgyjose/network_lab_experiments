@@ -14,7 +14,7 @@ public class Tcp_Client{
 			sendMessage = keyRead.readLine();  // keyboard reading
 			pwrite.println(sendMessage);       // sending to server
 			pwrite.flush();                    // flush the data
-			if((receiveMessage = receiveRead.readLine()) != null){ //receive from server
+			if((receiveMessage = receiveRead.readLine()) != null){ // receive from server
 				System.out.println(receiveMessage); // displaying at DOS prompt
 				}         
 			}               
