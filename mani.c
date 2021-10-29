@@ -55,5 +55,4 @@ int fd= open("employee.txt",O_RDWR|O_CREAT,0700);
  close(fd);
  printf("Sucessfully exicuted\n" );
  printf("%d Employees with starting letter S \n",n);
-
 }
